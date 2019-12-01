@@ -1,4 +1,4 @@
-#### PWA GAME : Hangman Game
+# PWA GAME : Hangman Game
 
 ## Installation
 
@@ -8,7 +8,7 @@ npm i
 
 npm start
 
-##### TODO
+## TODO
 
 - [ ] PWA with CSS Grid
 - [ ] Add SVG Hangman
