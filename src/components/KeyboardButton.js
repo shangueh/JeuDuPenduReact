@@ -29,6 +29,12 @@ export default styled(KeyboardButton)`
   text-align:  center
   background-color: white;
 
+  :hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+
   // Tout ce qui est au dessus de small = plus grand
   ${media.small`
     font-size: 150%

@@ -12,5 +12,6 @@ npm start
 
 - [x] PWA with CSS Grid
 - [ ] Add SVG Hangman
+- [ ] Add useContext for Global Context
 - [ ] Add Styled Component Theme (Light/Dark)
 - [ ] Add fetch PlaceHolder list of sentences to find

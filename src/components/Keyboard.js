@@ -6,21 +6,21 @@ import KeyboardButton from "./KeyboardButton";
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 // Composant qui affiche l'alphabet
-const Keyboard = ({ className }) => (
+const Keyboard = ({ className, onClick }) => (
   <div className={className}>
     {ALPHABET.map((letter, index) => (
       <KeyboardButton
         key={letter + index}
         letter={letter}
         index={index}
-        onClick={() => console.log("CLICK ON " + letter)}
+        onClick={onClick}
       />
     ))}
   </div>
 );
 
 export default styled(Keyboard)`
-  ${layout(800)}
+  ${layout()}
   padding: ${pxToRem(8)};
   display: grid;
   justify-content: center;
