@@ -10,7 +10,7 @@ npm start
 
 ## TODO
 
-- [ ] PWA with CSS Grid
+- [x] PWA with CSS Grid
 - [ ] Add SVG Hangman
 - [ ] Add Styled Component Theme (Light/Dark)
 - [ ] Add fetch PlaceHolder list of sentences to find
